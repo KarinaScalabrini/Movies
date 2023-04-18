@@ -1,0 +1,873 @@
+body{
+ 
+    background-color: rgb(0, 0, 9);
+    
+    margin:0px;
+    
+}
+.carousel{
+    
+    max-width:100vw;
+    height:100vh;
+    position:relative;
+   
+}
+form > h1{
+    color:#ffd700;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top:70px;
+    margin-bottom:1.5rem;
+}
+.loginForm{
+   
+    width:40%;
+    height:70%;
+    min-height:600px;
+    background: rgb(3, 0, 11);
+    border-radius:10px;
+
+}
+.w-100{
+    max-height:100vh;
+    max-width:100vw;
+}
+#login{
+    display:block;
+    /* position:absolute; */
+    text-align: center;
+    align-items: center;
+    width:115px;
+    height:45px;
+    padding:2px 8px 5px 8px;
+    background-color:rgba(0, 0, 0, 0.452) ;
+    color:#ffd700;
+    font-size: 20px;
+    font-weight: normal;
+    border:3px solid rgba(255, 255, 255, 0.695);
+    border-radius:8px;
+    right:25px;
+    top:25px;
+    z-index:999999999;
+    
+}
+#login:hover{
+    background-color: #080808;
+    font-weight: 600;
+    border:3px solid #ffd700;
+    box-shadow:1px 1px 5px 3px #060606b8;
+}
+.containerVideo{
+    background-color: #080808;
+    background-image: url("HD-wallpaper-star-wars-jedi-cinema-filme-guerra-nas-estrelas-novo-sith-theme-war.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0%;
+    width: 100%;
+    height: 50vh;
+    margin-bottom:5%;
+}
+.video{
+    width:90%;
+    height:100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+
+}
+.video > h3{
+    color:#f5f0f5;
+    font-size: 2.5em;
+    margin-top:2%;
+    margin-left:6%;
+    position:absolute;
+}
+iframe{
+    
+    width:25%;
+    height:50%;
+    background: none;
+}
+.menu{
+    background-image: url("./fundo.jpg");
+    background-position:50%;
+    width:100%;
+    height:50vh;
+    margin-bottom:6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.menu > img{
+    z-index:-1;
+    width:100%;
+    max-height:100%;
+}
+.articleMenu{
+    display:flex;
+    width:70%;
+    margin:0 auto;
+    
+}
+.articleMenu > ul {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.btn-menu{
+    background-color: rgb(13, 1, 25);
+    border-radius:12px;
+    padding:5px 12px;
+    color:#ffd700;
+    width:30%;
+    height:55px;
+    margin-top:15px;
+    border:none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.421);
+}
+.btn-menu:hover{
+    background-color: #080808;
+    font-weight: 600;
+}
+.articleMenu > ul > li{
+    color:rgba(255, 255, 255, 0.8);
+    font-size:22px;
+
+}
+.titleAssinar{
+    width:70%;
+    font-size:35px;
+    color:#ffd900;
+    margin:0 auto;
+    text-align: center;
+    padding-bottom:30px;
+}
+
+.divnone{
+    z-index:99999999999999999999999;
+    position: absolute;
+    width:100vw;
+    height:100vh;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.645);
+    
+    
+}
+
+.textForm{
+    text-align: center;
+    height:80px;
+    margin-top:45%;
+    font-size:35px;
+    color:rgba(255, 255, 255, 0.753);
+}
+.textForm2{
+    margin:25%;
+    font-size:55px;
+    color:#ffd700;
+    margin-top:3%;
+}
+
+.entrar{
+    font-size: 2.4rem;
+    color:aliceblue;
+    padding-top:3rem;
+    padding-left:5rem;
+}
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:2em;
+    height:10vh;
+    border-bottom:1px solid #ffd90071;
+}
+
+input{
+    width:90%;
+    height:40px; 
+    border-radius:none;
+    font-size:1.4em;
+    padding-left:20px;
+    border:none;
+    background-color: none;
+} 
+input:focus{
+    width:90%;
+    height:40px; 
+    border:none;
+    background-color: none;
+    font-size:1.4em;
+    padding-left:20px;
+    outline: 0;
+    
+}
+main{
+    height: 11vh;
+    
+}
+
+#nav{
+    width:12vw;
+    margin-left:0px;
+    height:100vh;
+    background-color: rgba(0, 0, 10, 0.514);
+    
+}
+.inputPesquisa{
+    background-color:rgb(0, 0, 9);
+    border-right:1px solid #ffd700;
+    font-size:1rem;
+    font-weight:normal;
+    color:rgba(255, 255, 255, 0.872);
+    margin-left:3px;
+
+}
+.inputPesquisa:focus,
+.inputPesquisa:hover
+{
+    background-color:#070707f3 ;
+    border-right:1px solid #ffd700;
+    font-size:1rem;
+    font-weight:normal;
+    color:rgba(255, 255, 255, 0.872);
+    margin-left:3px;
+
+}
+.navPesquisa{
+
+    width:70%;
+    height: 18vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin:65px auto;
+}
+.titlePesquisa{
+    font-size:2.4em;
+    max-height:50px;
+    color:rgba(255, 255, 255, 0.674);
+}
+
+ #pesquisa{
+    width:55%;
+    height:40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:1.4em;
+    margin-right:5%;
+    gap:1em;
+    border-radius:6px;
+    border:1px solid #ffd700;
+    background-color:rgb(0, 0, 9);
+} 
+
+.container{
+    min-width:100%;
+    max-width: 100vw;
+    overflow-x: scroll;
+    overflow: scroll;
+    overflow-y: hidden;
+    transition: height .5s linear;
+    margin-bottom: 3rem;
+}
+.container::-webkit-scrollbar{
+    
+    background-color: rgb(3, 3, 3);
+    height:9px;
+    
+}
+.container::-webkit-scrollbar-thumb{
+    
+    background-color:  rgb(13, 1, 25);
+    border-radius:7px;
+}
+
+.section1, .section2 {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    min-height:45vh;
+    margin:0 auto;
+    display:inline-flex;
+    gap:1rem;
+
+}
+.sectionPesquisa{
+    /* max-width:100vw;
+    min-height:45vh;
+    margin:0 auto;
+    display:none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    margin-bottom:30px; */
+
+    flex-direction: row;
+    align-items:center;
+    min-height:45vh;
+    margin:0 auto;
+    display:inline-flex;
+    gap:1rem;
+}
+.front{
+    width:100%;
+    height:100%;
+}
+.cartazFront{
+    height:37vh;
+    width:12vw;
+    background-color: #060606c9;
+    transition: 0.4s;
+    box-shadow: -2px 2px 5px 2px #121212;
+}
+.cartazFront:hover,
+.cartazFront:focus
+{
+    height:39vh;
+    width:13vw;
+    border:4px solid rgb(62, 11, 110);
+}
+.year, .describle{
+    height:10px;
+    font-size:9px;
+    color:bisque;
+}
+#title{
+    height:100%;
+}
+.bi{
+    color:#ffd700;
+    font-size: 1.3rem;
+}
+
+.titleDestaque{
+    padding-top:25px;
+    font-size:25px;
+    color:beige;
+
+}
+.titleArticle{
+    padding-top:15px;
+    padding-left:20px;
+    padding-bottom:15px;
+    font-size:25px;
+    color:beige;
+    margin-bottom:15px;
+    border-bottom:1px solid #ffd90044;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+    
+}
+li{
+    list-style-type: none;
+}
+.titleAll{
+    padding-top:10px;
+    padding-left:5px;
+    font-size: 1.2rem;
+    color:rgba(245, 245, 220, 0.878);
+    margin-bottom:2px;
+}
+.cartazFront > p , h5 {
+    color:rgba(211, 207, 207, 0.713);
+
+}
+iframe{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+form > label{
+    width:100%;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.76);
+    font-weight: 600;
+    margin-bottom:2px;
+}
+.inputLogin{
+    width:100%;
+    border-radius:6px; 
+    border:1px solid #121212;
+    height:9%;
+    font-size:1.2rem;
+    color: #C0C0C0;
+    background:rgb(3, 0, 11);
+}
+
+.inputLogin:focus {
+    font-size:1.2rem;
+    width:100%;
+    border-radius:6px; 
+    height:50px;
+    background:rgb(3, 0, 11);
+    border:1px solid #ffd700;
+}
+
+.btnLogin{
+    width: 99% !important;
+    height:8%!important;
+    background:#ffd900ad ;
+    font-size:20px;
+    font-weight: 700;
+    padding-left:25px;
+    padding-right:25px;
+    border:none;
+    border-radius:10px;
+    
+
+}
+.btnLogin:hover{
+    box-shadow: 1px 1px 5px 3px #121212;
+}
+.recuperar{
+    margin-top:3px;
+    margin-left:10px;
+    margin-bottom: 10%;
+    font-size:0.9rem;
+    color:rgba(255, 255, 255, 0.606);
+
+}
+.elLogin{
+    height:40px;
+    width:100%;
+    margin-top:10%;
+    display:flex;
+    justify-content: center;
+    gap:8px;
+
+}
+.date{
+    font-size:1rem;
+    padding-left:5px;
+}
+.bi-twitter{
+    background:#1DA1F2; 
+    font-size:20px;
+    width:32px;
+    height:32px;
+    padding-left:7px;
+    border-radius:100%;
+    color:white;
+}
+.bi-google{
+    background:#EA4335; 
+    font-size:20px;
+    width:32px;
+    height:32px;
+    padding-left:6px;
+    padding-top:1px;
+    border-radius:100%;
+    color:white;
+}
+
+footer{
+    height:15vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#c0c0c0ba;
+    background-color:rgb(2, 0, 3); ;
+
+}
+footer li >  .bi {
+    color:#c0c0c0ba;
+    font-size:20px;
+}
+.ulFooter{
+    display:flex;
+    justify-content: space-between;
+    width:20%;
+}
+.ulFooter2{
+    display:flex;
+    justify-content: space-between;
+    width:15%;
+}
+.ulFooter > li{
+    font-size:15px;
+}
+.logo{
+    font-size:1.5rem;
+    font-family: 'amatic SC';
+    font-weight: 800;
+}
+.divFooter > p{
+    margin:0;
+    text-align: center;
+    
+}
+.bi-film{
+    font-size: 1.5rem;
+    margin-right:8px;
+}
+.bi-r-circle{
+    color:#c0c0c0ba;
+    font-size: 16px;
+}
+.bi-search{
+    float:right;
+    margin-top:3px;
+    margin-right:15px;
+    font-size:22px;
+    font-weight:800;
+    color:rgba(255, 255, 255, 0.303);
+}
+.headerForm{
+    position:absolute;
+    z-index: 999;
+    display:flex;
+    align-items: center;
+    width:100%;
+    justify-content: space-between;
+    padding-left:100px;
+    padding-right:25px;
+    padding-top:20px; 
+}
+.logoHeader{
+    color:white;
+    font-weight: 800;
+}
+form{
+    width:80%;
+    height:95%;
+    margin:auto;
+    display:block;
+}
+.loginFrame{
+    transition:2s;
+    display:flex;
+    align-content: center;
+    width:32vw;
+}
+@media only screen and (max-device-width:900px){
+    
+    #carouselExampleIndicators{
+        width:100vw;
+        height:35vh;
+    }
+    .carousel{
+        width:100vw;
+        height:35vh;
+        margin:0 auto;
+    }
+    .carousel-item{
+        width:100%;
+        height:100%;
+    }
+    .carousel-item > img{
+        width:100%;
+        height:35vh;
+    }
+    .logo{
+        font-size:1.1em;
+    }
+    .logoHeader{
+        margin:8px 0px 0px 8px;
+    }
+    .logoHeader > i{
+        font-size:20px;
+    }
+    .logoHeader > span{
+        font-size:20px;
+    }
+    .headerForm{
+        padding:0px;
+        display:flex;
+        width:95%;
+        justify-content: space-between;
+        margin: 0px 15px 0px 10px 
+        
+    }
+    #login{
+        width:4.3rem;
+        font-size:0.8em;
+        height:2rem;
+        margin:8px 8px 0px 0px;
+        background-color: #ffd900;
+       padding:2px 8px 5px 8px;
+       background-color:rgba(0, 0, 0, 0.452) ;
+        color:#ffd700;
+        font-weight: normal;
+        border:3px solid rgba(255, 255, 255, 0.695);
+        border-radius:8px;
+    
+
+    }
+    header{
+        margin:20px 0px;
+    }
+    header > ul{
+        padding:0px;
+    }
+    .titleDestaque{
+        font-size:1.1rem;
+        padding-left:5px;
+        margin-top:40px;
+    }
+    #pesquisa{
+            width:100%;
+            height:40px;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top:0.5em;
+            gap:0px;
+            border-radius:6px;
+            border:1px solid #ffd700;
+            background-color:rgb(0, 0, 9);
+        
+    }
+    #pesquisa > input{
+        padding-left:9px;
+    }
+    #pesquisa > span{
+        position:absolute;
+        top:0px;
+        font-size:17px;
+        padding-left:7px;
+    }
+    .cartazFront{
+        height: 100%!important;
+        width: 35vw;
+        background-color: #060606c9;
+    }
+    .cartazFront:focus, .cartazFront:hover{
+        
+        width:37vw;
+        border:4px solid rgb(62, 11, 110);
+
+    }
+    .titleAll{
+        padding-top: 7px;
+        padding-left: 5px;
+        font-size: 0.8rem;
+        margin-bottom: 2px;
+    }
+    .date{
+        font-size: 0.7rem;
+    }
+    .section1, .section2{
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        height:100%;
+        min-height:32vh;
+        margin:0 auto;
+        display:inline-flex;
+        gap:1rem;
+        max-height:90%;
+    }
+    .sectionPesquisa{
+        flex-direction: row;
+        align-items:center;
+        height:100%;
+        min-height:32vh;
+        margin:0 auto;
+        display:inline-flex;
+        gap:1rem;
+        max-height:90%;
+    }
+    .titleArticle{
+        font-size:1.1rem;
+    }
+    .video > h3{
+        position: absolute;
+        color: #f5f0f5;
+        font-size: 1.8em;
+        margin-bottom:50%;
+        
+    }
+    footer{
+        height:5rem
+    }
+    footer > .logo{
+        font-size:20px;
+    }
+    .ulFooter{
+        display:none;
+    }
+    .ulFooter2{
+        padding:0px;
+        width:30vw;
+        margin-bottom:0px;
+    }
+    .ulFooter2 > li{
+        font-size:15px;
+    }
+    .bi-r-circle{
+        font-size:10px;
+    }
+    .divnone{
+        height:100vh;
+        margin:0px;
+        width:100vw;
+        background-color:rgba(0, 0, 0, 0.645);
+        overflow:hidden;
+    }
+    .loginForm{
+        width: 80%;
+    height: 70%;
+    min-height: 600px;
+    background: rgba(0, 0, 17, 0.966);
+    border-radius: 10px;
+    }
+    form > h1{
+        font-size:1.8rem;
+        padding-top:60px;
+        text-align:center;
+        margin-bottom:3rem;
+    }
+    .video{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    iframe{
+        width: 70%;
+    height: 60%;
+    }
+    iframe:nth-child(2){
+        display:none;
+    }
+    iframe:nth-child(3){
+        display:none;
+    }
+    iframe:nth-child(4){
+        display:none;
+    }
+    .navPesquisa{
+        width: 80%;
+        height: 15vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 15px auto;
+    }
+    .titlePesquisa{
+        text-align: center;
+        font-size:1.2em;
+        max-height:50px;
+        color:rgba(255, 255, 255, 0.674);
+    }
+    .bi-search{
+        position: relative!important;
+        font-size:22px!important;
+        font-weight:800;
+        color:rgba(255, 255, 255, 0.303);
+        margin-right:8px;
+    }
+    .inputPesquisa{
+        font-size:0.9rem;
+        width:85%;
+    }
+    .container{
+        height:35vh;
+        min-width:100%;
+        max-width: 100vw;
+        overflow-x: scroll;
+        overflow: scroll;
+        overflow-y: hidden;
+        transition: height .5s linear;
+        margin-bottom: 2rem;
+        padding:0px;
+        
+    }
+    .container::-webkit-scrollbar{
+        
+        background-color: rgb(3, 3, 3);
+        height:9px;
+        
+    }
+    .container::-webkit-scrollbar-thumb{
+        
+        background-color:  rgb(22, 1, 43);
+        border-radius:7px;
+    }
+    .containerVideo {
+        background-color: #080808;
+        background-image: url(HD-wallpaper-star-wars-jedi-cinema-filme-guerra-nas-estrelas-novo-sith-theme-war.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        width: 100%;
+        height: 30vh;
+    }
+    .menu{
+        background-image: url("./fundo.jpg");
+        background-position:50%;
+        width:100%;
+        height:25vh;
+        margin-bottom:3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .menu > img{
+        z-index:-1;
+        width:100%;
+        max-height:100%;
+    }
+    .articleMenu{
+        display:flex;
+        width:90%;
+        margin:0 auto;
+        
+    }
+    .articleMenu > ul {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding:0px;
+    }
+    .btn-menu{
+        background-color: rgb(13, 1, 25);
+        border-radius:12px;
+        color:#ffd700;
+        width:80%;
+        height:38px;
+        font-size:12px;
+        margin-top:15px;
+        border:none;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.421);
+    }
+    .btn-menu:hover{
+        background-color: #080808;
+        font-weight: 600;
+    }
+    .articleMenu > ul > li{
+        color:rgba(255, 255, 255, 0.8);
+        font-size:12px;
+    
+    }
+    .titleAssinar{
+        width:70%;
+        font-size:1.3rem;
+        color:#ffd900;
+        margin:15px auto;
+        text-align: center;
+        padding-bottom:0px;
+    }
+    
+    .bi-film{
+        font-size: 1.1rem;
+    }
+
+}
